@@ -181,4 +181,4 @@ GeoSearcher is evaluated on three RSVG benchmarks:
 
 ## 🙏 Acknowledgments
 
-GeoSearcher builds upon the [Qwen3-VL](https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct) model family. We thank the developers of the DIOR-RSVG, OPT-RSVG, and VRS-Bench datasets and the open-source research community.
+GeoSearcher builds upon the [Qwen3-VL](https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct) model family. We sincerely thank the developers of [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) and [verl](https://github.com/volcengine/verl) for providing excellent open-source frameworks that support supervised fine-tuning and reinforcement learning. We also thank the developers of the DIOR-RSVG, OPT-RSVG, and VRS-Bench datasets, as well as the broader open-source research community.
