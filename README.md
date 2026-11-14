@@ -15,17 +15,17 @@
 
 ## 🔍 Overview
 
+<p align="center"><img src="GeoSearcher_framework.png" width="95%" alt="GeoSearcher framework"></p>
+
 **GeoSearcher** is an anchor-guided progressive reasoning framework for **remote sensing visual grounding (RSVG)**. Instead of directly generating target coordinates in a single step, GeoSearcher uses explicit reference-object anchors to progressively integrate location, spatial-relation, and attribute clues before localizing the final target.
+
 
 Built upon **Qwen3-VL-4B**, GeoSearcher is trained in two stages:
 
 1. **Anchor-Centric Reasoning Supervised Fine-Tuning (ACR-SFT):** constructs and learns from anchor-centric reasoning trajectories. Intermediate reference-object coordinates are explicitly represented using `<ref_bbox>...</ref_bbox>`.
 2. **Process-Faithful Group Relative Policy Optimization (PF-GRPO):** improves grounding and intermediate reasoning behavior using a **Process-Aware Reward (PAR)** and a **Reasoning-Informative Sample Selector (RISS)**.
 
-The explicit anchors guide **reasoning-level spatial focus**; they do not require inference-time image cropping or restricted visual feature extraction.
 
-Once a framework image is uploaded, uncomment the following line:
-<p align="center"><img src="GeoSearcher_framework.png" width="95%" alt="GeoSearcher framework"></p>
 
 ## 🤗 Model Weights
 
