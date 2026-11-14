@@ -7,9 +7,9 @@
 **Accepted by _Information Fusion_ (2026)**
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv%3A2607.01050-b31b1b.svg)](https://arxiv.org/abs/2607.01050)
+[![Model](https://img.shields.io/badge/🤗%20Hugging%20Face-GeoSearcher--4B-yellow)](https://huggingface.co/wangdianyu/GeoSearcher-4B)
 [![Journal](https://img.shields.io/badge/Information%20Fusion-Accepted-2f72b7.svg)](https://www.sciencedirect.com/journal/information-fusion)
 
-[**Paper**](https://arxiv.org/abs/2607.01050) 
 
 </div>
 
@@ -33,7 +33,7 @@ We are preparing the release of the **GeoSearcher-4B** model checkpoint.
 
 | Model | Backbone | Training | Availability |
 |:--|:--|:--|:--|
-| **GeoSearcher-4B** | Qwen3-VL-4B | ACR-SFT + PF-GRPO | **Coming soon** |
+| **GeoSearcher-4B** | Qwen3-VL-4B | ACR-SFT + PF-GRPO |[🤗 Hugging Face](https://huggingface.co/wangdianyu/GeoSearcher-4B) |
 
 The download link will be added here after the weights and inference configuration have been verified. The final model release will include the required processor/tokenizer configuration.
 
