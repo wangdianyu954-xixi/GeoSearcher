@@ -24,9 +24,8 @@ Built upon **Qwen3-VL-4B**, GeoSearcher is trained in two stages:
 
 The explicit anchors guide **reasoning-level spatial focus**; they do not require inference-time image cropping or restricted visual feature extraction.
 
-<!-- Once a framework image is uploaded, uncomment the following line:
-<p align="center"><img src="assets/geosearcher_framework.png" width="95%" alt="GeoSearcher framework"></p>
--->
+Once a framework image is uploaded, uncomment the following line:
+<p align="center"><img src="framework.pdf" width="95%" alt="GeoSearcher framework"></p>
 
 ## 🤗 Model Weights
 
