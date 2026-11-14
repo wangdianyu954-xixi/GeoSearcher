@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1>
-  <img src="GeoSearcher.png" width="42" alt="GeoSearcher logo" />
+  <img src="GeoSearcher.png" width="48" alt="GeoSearcher logo" />
   GeoSearcher
 </h1>
 
