@@ -44,7 +44,6 @@ For single-image inference, **Transformers is sufficient as the inference framew
 ```bash
 pip install -U "transformers>=4.57.0" accelerate pillow
 # Install a CUDA-compatible PyTorch build if torch is not installed.
-# 中文：如未安装 PyTorch，请按 CUDA 版本安装对应的 GPU 版本。
 ```
 
 <!-- 中文：多图批量推理推荐使用 LLaMA-Factory 的官方 vLLM 批量脚本，在独立环境安装，避免 vLLM 与现有 Transformers / PyTorch 版本冲突。 -->
