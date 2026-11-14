@@ -42,7 +42,7 @@ The official model repository is available on Hugging Face. Please check the rep
 For single-image inference, **Transformers is sufficient as the inference framework**; LLaMA-Factory and vLLM are not required. Install PyTorch for your CUDA environment, then install the Python dependencies:
 
 ```bash
-pip install -U "transformers>=4.57.0" accelerate pillow
+pip install -U "transformers>=4.57.3" accelerate pillow
 # Install a CUDA-compatible PyTorch build if torch is not installed.
 ```
 
@@ -58,9 +58,7 @@ pip install -e ".[torch,metrics]"
 pip install -U vllm
 ```
 
-> **Note:** Compatible versions of PyTorch, CUDA, Transformers, LLaMA-Factory, and vLLM depend on the environment. If the model repository is private, authenticate with `hf auth login` before loading it.
->
-> <!-- 中文：若模型仓库尚未公开，需先登录 Hugging Face；不能把个人 Token 放进代码仓库。 -->
+> **Note:** Compatible versions of PyTorch, CUDA, Transformers, LLaMA-Factory, and vLLM depend on the environment. 
 
 ## 🖼️ Single-Image Inference (Transformers)
 
