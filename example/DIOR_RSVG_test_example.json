@@ -1,0 +1,32 @@
+[
+  {
+    "messages": [
+      {
+        "content": "<image>Find the specific object described as \"A green and brown golf field\" in this aerial photo.",
+        "role": "user"
+      },
+      {
+        "content": "{\n\"bbox_2d\": [166, 296, 855, 840]\n}",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/mnt/sdb/datasets/wangdianyu/JPEGImages/00001.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Spot \"The small slender train station in the middle\" in this remote sensing imagery.",
+        "role": "user"
+      },
+      {
+        "content": "{\n\"bbox_2d\": [386, 532, 650, 601]\n}",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/mnt/sdb/datasets/wangdianyu/JPEGImages/00003.jpg"
+    ]
+  }
+]
