@@ -7,7 +7,6 @@
 
 <h3>Anchor-Guided Progressive Reasoning for Remote Sensing Visual Grounding with Process Supervision</h3>
 
-<strong>Accepted by <em>Information Fusion</em> (2026)</strong>
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv%3A2607.01050-b31b1b.svg)](https://arxiv.org/abs/2607.01050)
 [![Model](https://img.shields.io/badge/🤗%20Hugging%20Face-GeoSearcher--4B-yellow)](https://huggingface.co/wangdianyu/GeoSearcher-4B)
